@@ -58,6 +58,8 @@ You can also modify some other values like :
  
      MAIL_CHECK_FREQ = 20
 
-
+### Start
+    cd folders
+    python start.py
 
 
