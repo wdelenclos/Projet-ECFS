@@ -72,7 +72,18 @@ _______
 
 ECFS have a simple userflow.
 
-After the loading icon ![Icones](https://github.com/wladouche/Projet_ECFS/blob/master/hello.png), you have two feedbacks, ![Icones](https://github.com/wladouche/Projet_ECFS/blob/master/error.png) or  ![Icones](https://github.com/wladouche/Projet_ECFS/blob/master/done.png)
+After the loading icon ![Icones](https://github.com/wladouche/Projet_ECFS/blob/master/hello.png), you have two feedbacks, ![Icones](https://github.com/wladouche/Projet_ECFS/blob/master/erreur.png) or  ![Icones](https://github.com/wladouche/Projet_ECFS/blob/master/done.png). If you see the red cross, you have a problem, check your config values. 
+If not, perfect, the terminal must show a congratulation message. 
+
+At this moment, some possibilities : 
+
+ ![Icones](https://github.com/wladouche/Projet_ECFS/blob/master/mail.png) -> You have one mail
+ ![Icones](https://github.com/wladouche/Projet_ECFS/blob/master/mailFew.png) -> You have more than 1 mail and less than 14 mails
+ ![Icones](https://github.com/wladouche/Projet_ECFS/blob/master/mailLot.png) -> You have more than 15 mails
+ In this 3 cases, each X seconds specified in the MAIL_CHECK_FREQ value you have the right number of mails. 
+ 
+ ![Icones](https://github.com/wladouche/Projet_ECFS/blob/master/nomail.png) -> You dont have mails (smiley happy ! ) 
+ ![Icones](https://github.com/wladouche/Projet_ECFS/blob/master/up.png) -> During a checkup
 
 
-
+Enjoy ! 
