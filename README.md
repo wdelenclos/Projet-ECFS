@@ -1,7 +1,8 @@
 # Projet_ECFS Email checker for SenseHat (Raspberry Pi 3)
 
 A notification and check system for gmail on **Raspberry Pi 3** & **Sense Hat**.
-The aim is to use the Sense Hat module as a *visual warning*, a notification, of the state of your inbox. It works perfectly with **Gmail** and **Inbox by Google**. 
+The aim is to use the Sense Hat module as notifier , of the state of your inbox.
+It works perfectly with **Gmail** and **Inbox by Google**. 
 Nevertheless, it is theoretically compatible with **all email server using IMAP** without advanced connection (other than Login / Password).
 
 
@@ -34,11 +35,13 @@ Open your command line and, before launch any script, install the following pyth
     sudo apt-get update
     sudo apt-get install sense-hat
     sudo reboot
-      
+    
+    
 #### Settings
 Now, you can configure ECFS (currently the comments are in french because i'm french) :
 
     sudo nano start.py
+    
     
 Find the followings required variables and put your own values in: 
 
