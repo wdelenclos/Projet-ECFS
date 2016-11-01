@@ -12,8 +12,8 @@ from time import gmtime, strftime
 # --- Parametres et configuration :
 LOG = True #afficher les log dans la console 
 HOSTNAME = 'imap.gmail.com' #votre serveur imap
-USERNAME = 'wdelenclos' #votre identifiant
-PASSWORD = '125-ayN-92' #votre mot de passe
+USERNAME = 'username' #votre identifiant
+PASSWORD = 'password' #votre mot de passe
 MAILBOX = 'Inbox' #le dossier a veifier
 NEWMAIL_OFFSET = 0   # my unread messages never goes to zero, yours might
 MAIL_CHECK_FREQ = 20 # check mail every x seconds
