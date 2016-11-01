@@ -21,16 +21,18 @@ ECFS, Email checker for SenseHat Raspberry Pi 3 **require**:
 
 ## Install
 
-> Pull or exctract the repository where you whant on your rapsberry.
+Pull or exctract the repository where you whant on your rapsberry.
 
-> Open your command line and, before launch any script, install the following python libraries and apt: 
+### Install required elements
+Open your command line and, before launch any script, install the following python libraries and apt: 
 
     pip install imapclient
     sudo apt-get update
     sudo apt-get install sense-hat
     sudo reboot
       
-> Now, you can configure ECFS (currently the comments are in french because i'm french) :
+### Settings
+Now, you can configure ECFS (currently the comments are in french because i'm french) :
 
     sudo nano start.py
     
