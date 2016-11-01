@@ -1,5 +1,5 @@
 # Projet_ECFS Email checker for SenseHat (Raspberry Pi 3)
-A notification and check system for gmail on Raspberry Pi 3 & Sense Hat.
+A notification and check system for gmail on **Raspberry Pi 3** & **Sense Hat**.
 The aim is to use the Sense Hat module as a *visual warning*, a notification, of the state of your inbox. It works perfectly with **Gmail** and **Inbox by Google**. 
 Nevertheless, it is theoretically compatible with **all email server using IMAP** without advanced connection (other than Login / Password).
 
