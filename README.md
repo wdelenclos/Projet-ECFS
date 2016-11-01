@@ -83,7 +83,8 @@ At this moment, some possibilities :
  - ![Icones](https://github.com/wladouche/Projet_ECFS/blob/master/mail.png) -> *Green* You have one mail
  - ![Icones](https://github.com/wladouche/Projet_ECFS/blob/master/mailFew.png) -> *Yellow* You have more than 1 mail and less than 14 mails
  - ![Icones](https://github.com/wladouche/Projet_ECFS/blob/master/mailLot.png) -> *red* You have more than 15 mails
- In this 3 cases, each X seconds specified in the MAIL_CHECK_FREQ value you have the right number of mails. 
+
+In this 3 cases, each X seconds specified in the MAIL_CHECK_FREQ value you have the right number of mails. 
  
  - ![Icones](https://github.com/wladouche/Projet_ECFS/blob/master/nomail.png) -> You dont have mails (smiley happy ! ) 
  - ![Icones](https://github.com/wladouche/Projet_ECFS/blob/master/up.png) -> During a checkup
