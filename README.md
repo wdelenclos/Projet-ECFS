@@ -42,6 +42,8 @@ Find the followings required variables and put your own values in:
     USERNAME = 'username'
     PASSWORD = 'password' 
     
+
+##### Optional 
 You can also modify some other values like :
  
  If you want show logs in the terminal:
