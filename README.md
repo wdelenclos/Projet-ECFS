@@ -21,6 +21,8 @@ ECFS, Email checker for SenseHat Raspberry Pi 3 **require**:
   + IMAPClient
 + Nano (for configuration)
 
+_______
+
 ## Install
 
 Pull or exctract the repository where you whant on your rapsberry.
@@ -60,8 +62,14 @@ You can also modify some other values like :
  
      MAIL_CHECK_FREQ = 20
 
-### Start
+#### Start
     cd folders
     python start.py
+
+_______
+
+## How it's work ? 
+
+![Icones]()
 
 
