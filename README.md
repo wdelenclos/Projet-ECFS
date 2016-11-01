@@ -4,6 +4,10 @@ The aim is to use the Sense Hat module as a *visual warning*, a notification, of
 Nevertheless, it is theoretically compatible with **all email server using IMAP** without advanced connection (other than Login / Password).
 
 
+_______
+
+
+
 ## Requiered
 
 ECFS, Email checker for SenseHat Raspberry Pi 3 **require**:
@@ -14,7 +18,6 @@ ECFS, Email checker for SenseHat Raspberry Pi 3 **require**:
   + SenseHat
   + IMAPClient
 + Nano (for configuration)
-
 
 ## Install
 
@@ -27,23 +30,30 @@ ECFS, Email checker for SenseHat Raspberry Pi 3 **require**:
     sudo apt-get install sense-hat
     sudo reboot
       
-> Now, you can configure ECFS :
+> Now, you can configure ECFS (currently the comments are in french because i'm french) :
 
     sudo nano start.py
     
-Find the followings variables and put your own values in: 
+Find the followings required variables and put your own values in: 
 
+    HOSTNAME = 'imap.gmail.com' 
+    USERNAME = 'username'
+    PASSWORD = 'password' 
     
+You can also modify some other values like :
+ 
+ If you want show logs in the terminal:
+ 
+     LOG = True 
+     
+ Choose the folders to modify:
+ 
+     MAILBOX = 'Inbox'
+     
+ check mail every x seconds:
+ 
+     MAIL_CHECK_FREQ = 20
 
-#### H4
-##### H5
-###### H6
 
-Alternatively, for H1 and H2, an underline-ish style:
 
-Alt-H1
-======
-
-Alt-H2
-------
 
