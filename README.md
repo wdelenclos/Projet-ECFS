@@ -70,6 +70,9 @@ _______
 
 ## How it's work ? 
 
-![Icones](https://github.com/wladouche/Projet_ECFS/blob/master/hello.png)
+ECFS have a simple userflow.
+
+After the loading icon ![Icones](https://github.com/wladouche/Projet_ECFS/blob/master/hello.png), you have two feedbacks, ![Icones](https://github.com/wladouche/Projet_ECFS/blob/master/error.png) or  ![Icones](https://github.com/wladouche/Projet_ECFS/blob/master/done.png)
+
 
 
